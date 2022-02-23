@@ -1,0 +1,7 @@
+﻿  HoughRette.cpp
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRette\HoughRette\HoughRette.cpp(34,14): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRette\HoughRette\HoughRette.cpp(59,42): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRette\HoughRette\HoughRette.cpp(59,37): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRette\HoughRette\HoughRette.cpp(74,27): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRette\HoughRette\HoughRette.cpp(75,27): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+  HoughRette.vcxproj -> C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRette\x64\Debug\HoughRette.exe
