@@ -1,0 +1,4 @@
+﻿  HoughCerchi.cpp
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughCerchi\HoughCerchi\HoughCerchi.cpp(47,31): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughCerchi\HoughCerchi\HoughCerchi.cpp(48,31): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+  HoughCerchi.vcxproj -> C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughCerchi\x64\Debug\HoughCerchi.exe
