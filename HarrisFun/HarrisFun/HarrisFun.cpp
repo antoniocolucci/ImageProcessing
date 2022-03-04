@@ -1,8 +1,8 @@
-/*  HarrisFun.cpp
+/*  HarrisFun
 
     Algoritmo di Harris
     STEP :
-    -Calcolare le derivate parziali rispetto ad x e y(Dx e Dy).
+    - Calcolare le derivate parziali rispetto ad x e y(Dx e Dy).
     - Calcolare Dx^2, Dy^2 e Dx * Dy.
     - Applicare un filtro gaussiano a Dx^2, Dy^2 e Dx * Dy.
     - Si ottengono C00, C11, C01(e quindi anche C10).
@@ -19,7 +19,6 @@ using namespace std;
 using namespace cv;
 
 static void myHarris(Mat& src, Mat& output, int kernel_size, float k, int thresh);
-
 
 int main(int argc, char** argv) {
 
@@ -58,10 +57,11 @@ static void myHarris(Mat& src, Mat& output, int kernel_size, float k, int thresh
     GaussianBlur(Dy2, Dy2g, Size(7, 7), 0.0, 2.0, BORDER_DEFAULT); //C11
     GaussianBlur(Dxy, Dxyg, Size(7, 7), 2.0, 2.0, BORDER_DEFAULT); //C01
 
+    //Calcolo le componenti dell'indice R.
     Mat x2y2, xy, mtrace, R;
     multiply(Dx2g, Dy2g, x2y2); //C00 * C11
     multiply(Dxyg, Dxyg, xy); //C10 * C01
-    pow((Dx2g + Dy2g), 2.0, mtrace);
+    pow((Dx2g + Dy2g), 2.0, mtrace); //Calcolo la traccia.
     R = (x2y2 - xy) - k * mtrace; //k solitamente è un valore basso (0.04 nel nostro caso). E' il contributo della traccia al calcolo finale di R (quantità di traccia che sottraggo al determinante).
 
     normalize(R, R, 0, 255, NORM_MINMAX, CV_32FC1);
@@ -71,7 +71,7 @@ static void myHarris(Mat& src, Mat& output, int kernel_size, float k, int thresh
         for (int j = 0; j < src.cols; j++) {
             if ((int)R.at<float>(i, j) > thresh)
             {
-                circle(output, Point(j, i), 5, Scalar(0), 2, 8, 0);
+                circle(output, Point(j, i), 5, Scalar(0), 2, 8, 0); //Disegno i cerchi sui punti di corner.
             }
         }
     }
