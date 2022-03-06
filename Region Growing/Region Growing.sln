@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Region Growing", "Region Growing\Region Growing.vcxproj", "{CED60F9F-C8CD-4EA5-B90D-38951CAF2DF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CED60F9F-C8CD-4EA5-B90D-38951CAF2DF9}.Debug|x64.ActiveCfg = Debug|x64
+		{CED60F9F-C8CD-4EA5-B90D-38951CAF2DF9}.Debug|x64.Build.0 = Debug|x64
+		{CED60F9F-C8CD-4EA5-B90D-38951CAF2DF9}.Debug|x86.ActiveCfg = Debug|x64
+		{CED60F9F-C8CD-4EA5-B90D-38951CAF2DF9}.Release|x64.ActiveCfg = Release|x64
+		{CED60F9F-C8CD-4EA5-B90D-38951CAF2DF9}.Release|x64.Build.0 = Release|x64
+		{CED60F9F-C8CD-4EA5-B90D-38951CAF2DF9}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B16BC208-11E3-4295-A390-3CA00934AE28}
+	EndGlobalSection
+EndGlobal
