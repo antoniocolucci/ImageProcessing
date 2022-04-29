@@ -1,0 +1,29 @@
+﻿  KMeans.cpp
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 11\KMeans\KMeans\KMeans.cpp(149,38): warning C4244: '=': conversione da '_Tp' a '_Tp'. Possibile perdita di dati.
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 11\KMeans\KMeans\KMeans.cpp(150,38): warning C4244: '=': conversione da '_Tp' a '_Tp'. Possibile perdita di dati.
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 11\KMeans\KMeans\KMeans.cpp(151,38): warning C4244: '=': conversione da '_Tp' a '_Tp'. Possibile perdita di dati.
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+  KMeans.vcxproj -> C:\antonio\Parthenope\Elim\Laboratorio\Slide 11\KMeans\x64\Debug\KMeans.exe
