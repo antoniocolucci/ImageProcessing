@@ -1,0 +1,7 @@
+﻿  HoughRetteFun.cpp
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRetteFun\HoughRetteFun\HoughRetteFun.cpp(39,14): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRetteFun\HoughRetteFun\HoughRetteFun.cpp(53,42): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRetteFun\HoughRetteFun\HoughRetteFun.cpp(53,37): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRetteFun\HoughRetteFun\HoughRetteFun.cpp(68,23): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRetteFun\HoughRetteFun\HoughRetteFun.cpp(69,23): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+  HoughRetteFun.vcxproj -> C:\antonio\Parthenope\Elim\Laboratorio\Slide 8\HoughRetteFun\x64\Debug\HoughRetteFun.exe
